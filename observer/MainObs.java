@@ -1,5 +1,4 @@
 package observer;
-import Kurs.MainKurs;
 import Adapter.MainAdp;
 import java.time.LocalDate;
 

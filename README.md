@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/dPrNTnc/ss.png" alt="ss" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/DV2kSym/ss.png" alt="ss" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />
 </div>
 
 <!-- TABLE OF CONTENTS -->
