@@ -2,9 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/dPrNTnc/ss.png" alt="ss" border="0"></a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -30,8 +28,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ### Financial Planning
   Financial Planning adalah projek yang memberikan informasi terkait Kurs Harian berbagai negara ke Rupiah menggunakan implementasi `Observer Pattern`. Projek ini juga menggunakan implementasi `Decorator Pattern`  untuk menu melihat daftar biaya penggunaan CC dan Asuransi jiwa dari bank.
