@@ -1,4 +1,5 @@
 package Decorator;
+//general dari pilihan bonus
 public class TabunganBiasa implements Tabungan{
     
     @Override
@@ -8,6 +9,6 @@ public class TabunganBiasa implements Tabungan{
 
     @Override
     public double getCost() {
-        return 100000;
+        return 7000;
     }
 }

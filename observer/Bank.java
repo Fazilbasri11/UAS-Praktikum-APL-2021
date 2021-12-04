@@ -3,7 +3,7 @@ public interface Bank {
     //add notif
     public void attach(KursObs observer);
 
-    //delete notif ke people
+    //delete notif
     public void detach(KursObs observer);
 
 

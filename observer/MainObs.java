@@ -1,13 +1,13 @@
 package observer;
 import Kurs.MainKurs;
+import Adapter.MainAdp;
 import java.time.LocalDate;
-import java.util.Scanner;
 
+//main observer
 public class MainObs{
     public void UpdateBank(){
 
-        Scanner inputan = new Scanner(System.in);
-    
+        //daftar update
         Update1 one = new Update1();
         Update2 two = new Update2();
         Update3 three = new Update3();
@@ -18,10 +18,11 @@ public class MainObs{
         ConcrateBank publisher = new ConcrateBank(); 
 
         System.out.println("== Informasi Kurs Harian Rupiah ==");
-        LocalDate myObj = LocalDate.now(); // Create a date object
-        System.out.println("Tanggal : "+myObj); // Display the current date
+        LocalDate tgl = LocalDate.now(); // tanggal
+        System.out.println("Tanggal : "+tgl); // display tanggal hari ini
         System.out.println("");
 
+        //memasukkan notif
         publisher.attach(one);
         publisher.attach(two);
         publisher.attach(three);
@@ -32,11 +33,5 @@ public class MainObs{
         System.out.println("");
         System.out.println("========================");
         System.out.println("");
-        System.out.println("Lihat Kode Kurs (y/n)?");
-        String kode=inputan.nextLine();
-        if (kode.equals("y")){
-            MainKurs k= new MainKurs();
-            k.Kurskode();
-        }
     }
 }

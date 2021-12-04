@@ -4,11 +4,11 @@ public class CC extends Pilihan{
     public CC(Tabungan newTabungan) {
         super(newTabungan);
 
-        System.out.println("+ bunga");
+        System.out.println("+ Bonus -2% biaya admin");
     }
 
     public String getDescription() {
-        return tempTabungan.getDescription() + ", Kartis credit / online cc";
+        return tempTabungan.getDescription() + ", CC / online cc";
     }  
 
     public double getCost() {

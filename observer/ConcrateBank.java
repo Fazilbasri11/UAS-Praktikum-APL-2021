@@ -2,11 +2,9 @@ package observer;
 import java.util.ArrayList;
 import java.util.List;
 
-
-//untuk menampung people
 public class ConcrateBank implements Bank {
-
-
+    
+    //penampung
     private List<KursObs> observers = new ArrayList<>();
     @Override
     public void attach(KursObs observer) {

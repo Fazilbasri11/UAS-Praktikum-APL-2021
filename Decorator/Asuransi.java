@@ -4,8 +4,7 @@ public class Asuransi extends Pilihan{
     public Asuransi(Tabungan newAsuransi) {
         super(newAsuransi);
 
-        System.out.println("+ Bonus Jenis tabungan");
-
+        System.out.println("+ Bonus -7% pajak");
     }
 
     public String getDescription() {

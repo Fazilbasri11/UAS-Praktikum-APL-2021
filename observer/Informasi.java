@@ -1,4 +1,5 @@
 package observer;
+//class yang berfungsi untuk membuat pesan/notif
 public class Informasi{
     private String messageContent;
 
