@@ -1,4 +1,7 @@
 package Decorator;
+
+//Class inisialisasi dari pilihan
+//dan untuk deskripsi dan biaya
 public class Asuransi extends Pilihan{
 
     public Asuransi(Tabungan newAsuransi) {

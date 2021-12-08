@@ -1,5 +1,5 @@
 package Decorator;
-//general dari pilihan bonus
+//Class pilihan umum
 public class TabunganBiasa implements Tabungan{
     
     @Override

@@ -1,4 +1,6 @@
 package Decorator;
+
+//Class main dari pilihan menu decorator pattern 
 public class MainDec {
     //Main decotaror pattern bonus bank
     public void tabungan() {

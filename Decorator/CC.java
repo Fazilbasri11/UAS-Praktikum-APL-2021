@@ -1,4 +1,7 @@
 package Decorator;
+
+//Class inisialisasi dari pilihan
+//dan untuk deskripsi dan biaya
 public class CC extends Pilihan{
 
     public CC(Tabungan newTabungan) {

@@ -18,8 +18,8 @@ public class FinancialPlanning {
                 System.out.println("");
 
                 System.out.println("pilihan menu :");
-                System.out.println("1. Informasi Kurs Harian");//decorator pattern
-                System.out.println("2. Paket Bonus Tabungan"); //observer pattern
+                System.out.println("1. Informasi Kurs Harian");//observer pattern
+                System.out.println("2. Paket Bonus Tabungan"); //decorator pattern
                 System.out.println("3. Konversi Kurs (Ke-Rupiah)");//adapter pattern
                 System.out.println("4. Keluar Aplikasi");
                 System.out.println("");

@@ -1,4 +1,7 @@
 package Decorator;
+
+//Class berfungsi implementasi dari piliihan 
+//yang akan dikirimkan tabungan
 public class Pilihan implements Tabungan{
     
     protected Tabungan tempTabungan;

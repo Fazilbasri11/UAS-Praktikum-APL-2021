@@ -28,13 +28,17 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+- Nama : Fazil Basri
+- NIM : 1908107010032
+- Menggunakan Pattern genap (2), satu pattern ganjil
 
 ### Financial Planning
-  Financial Planning adalah projek yang memberikan informasi terkait Kurs Harian berbagai negara ke Rupiah menggunakan implementasi `Observer Pattern`. Projek ini juga menggunakan implementasi `Decorator Pattern`  untuk menu melihat daftar biaya penggunaan CC dan Asuransi jiwa dari bank.
+  Financial Planning adalah projek yang memberikan informasi terkait Kurs Harian berbagai negara ke Rupiah menggunakan implementasi `Observer Pattern`. Projek ini juga menggunakan implementasi `Decorator Pattern`  untuk menu melihat daftar biaya penggunaan CC dan Asuransi jiwa dari bank. Dan penggunaan `Adapter Pattern` pada menu konversi kurs.
 
 Menu yang terdapat dalam projek:
-* Informasi Kurs Harian -> memberikan informasi kurs berbagai negara ke Rupiah
-* Pilihan Tabungan -> memberikan informasi biaya penggunaan dari penawaran bank, CC dan Asuransi Jiwa
+* Informasi Kurs Harian -> memberikan informasi kurs berbagai negara ke Rupiah.
+* Pilihan Tabungan -> memberikan informasi biaya penggunaan dari penawaran bank, CC dan Asuransi Jiwa.
+* Konversi kurs -> mengkonversi jumlah inputan mata uang asing ke rupiah.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -42,11 +46,13 @@ Menu yang terdapat dalam projek:
 ## Package dan File
 
 Dalam projek ini terdapat beberapa package yang dipisahkan menurut pattern yang digunakan, diantaranya :
-  1. File Utama/Main -> FinancialPlanning.java 
+  1. File Utama/Main -> FinancialPlanning.java (File yang akan di Run)
   2. Decorator -> Berisi file decorator pattern
       - File Main -> MainDec.java
   3. Observer -> Berisi file Observer pattern 
       - File main -> MainObs.java
+  4. Adapter Pattern -> Berisi file Adapter Pattern
+      - File main -> MainAdp
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -57,8 +63,9 @@ Dalam projek ini terdapat beberapa package yang dipisahkan menurut pattern yang 
 _Dibawah ini petunjuk requitments dan instalasi projek_ 
 
 ### Prerequisites
-* Java JDK 8+
-* Git Bash
+* Java JDK
+* Git Bash / cmd
+* text editor / IDE
 
 ### Installation
 
@@ -86,6 +93,7 @@ _Dibawah ini petunjuk requitments dan instalasi projek_
 
 - [x] Decorator pattern
 - [x] Observer Pattern
+- [x] Adapater Pattern 
 - [x] Main menu
 - [x] Documentations code
 - [x] Readme. md

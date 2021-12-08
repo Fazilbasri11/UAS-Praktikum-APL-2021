@@ -2,6 +2,7 @@ package observer;
 import java.util.ArrayList;
 import java.util.List;
 
+//Class akan mengirimkan implement informasi ke Bank
 public class ConcrateBank implements Bank {
     
     //penampung
