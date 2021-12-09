@@ -47,6 +47,7 @@ public class FinancialPlanning {
                         MainAdp a = new MainAdp(); 
                         a.Nilai();
                     }default:
+                        System.out.println("Pilihan tidak ada");
                         break;
                 }
                 //input ke home/tidak
