@@ -71,13 +71,9 @@ _Dibawah ini petunjuk requitments dan instalasi projek_
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/xzill11/UAS-Praktikum-APL-2021.git
    ```
-2. Open packages
-   ```sh
-   npm install
-   ```
-3. Buka gitbash di folder `config.js` dan compile
+3. Buka gitbash di folder `UAS-Praktikum-APL-2021` dan compile
    ```sh
    javac FinancialPlanning.java;
    ```
@@ -104,7 +100,7 @@ _Dibawah ini petunjuk requitments dan instalasi projek_
 
 Fazil Basri - [Fazillbasry@gmail.com]()
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/xzill11/UAS-Praktikum-APL-2021](https://github.com/xzill11/UAS-Praktikum-APL-2021)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
